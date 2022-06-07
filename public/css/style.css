@@ -175,6 +175,7 @@ p.preço{
 #cadastro-produtos {
   display: flex;
   gap: 1rem;
+  margin-left: 2rem;
 }
 
 input {
