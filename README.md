@@ -4,7 +4,7 @@ Projeto desenvolvido durante o curso de FullStack.
 Usando as tecnologias: HTML, CSS, JAVASCRIPT, EXPRESS.
 Produtos salvos em Memória Local nessa primeira etapa do projeto.
 
-Deploy: 
+Deploy: https://catalogo-gark.herokuapp.com/
 
 ---
 ### Instruções
