@@ -25,6 +25,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 
@@ -94,6 +95,7 @@ nav ul li a {
   justify-content: center;
   gap: 8rem;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .card-produto img{

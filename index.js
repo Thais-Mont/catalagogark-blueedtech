@@ -109,7 +109,7 @@ app.get("/cadastro", (req, res) => {
 app.get('/detalhes/:id', (req, res) => {
   idEscolhido = +req.params.id;
   detalhesSelecionado = loteProdutos.find(e => e.id == idEscolhido);
-  mensagem = ""
+  mensagem = "";
   res.render('detalhes', {loteProdutos, detalhesSelecionado});
 });
 
