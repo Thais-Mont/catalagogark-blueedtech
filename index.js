@@ -99,6 +99,7 @@ let mensagem = "";
 // Rotas
 app.get("/", (req, res) => {
     res.render("index", {loteProdutos, produto, mensagem});
+    mensagem = "";
 });
 
 app.get("/cadastro", (req, res) => {
