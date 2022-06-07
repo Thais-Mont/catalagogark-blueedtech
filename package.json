@@ -1,0 +1,30 @@
+{
+  "name": "catalagogark-blueedtech",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido durante o curso de FullStack.\r Usando as tecnologias: HTML, CSS, JAVASCRIPT, EXPRESS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thais-Mont/catalagogark-blueedtech.git"
+  },
+  "keywords": [],
+  "author": "Thais Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thais-Mont/catalagogark-blueedtech/issues"
+  },
+  "homepage": "https://github.com/Thais-Mont/catalagogark-blueedtech#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

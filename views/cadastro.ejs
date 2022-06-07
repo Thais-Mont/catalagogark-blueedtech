@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GARK-Cadastro</title>
+  </head>
+
+    <header>
+      <nav>
+        <img id="img-logo" src="./img/logo.png" alt="logo-gark" />
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/#faixa-titulo">PRODUTOS</a></li>
+          <li><a href="/cadastro">CADASTRO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="faixa-titulo">
+      <div>CADASTRO DE PRODUTOS</div>
+    </section>
+
+    <main>
+      <section id="cadastro-produtos">
+        <div class="imagem-cadastro">
+          <img src="/img-banner/imagem02.jpg" alt="imagem-cadastro" />
+        </div>
+
+        <div class="form-cadastro">
+          <form action="/create" method="post" id="cadastro">
+
+            <div class="label-form">
+              <label for="nome">Nome do Produto: </label>
+              <input type="text" name="nome" id="nome" required />
+            </div>
+
+            <div class="label-form">
+              <label for="dimensoes">Dimensões (LxA): </label>
+              <input type="text" name="dimensoes" id="dimensoes" required />
+            </div>
+
+            <div class="label-form">
+              <label for="descricao">Descrição </label>
+              <input type="text" name="descricao" id="descricao" required />
+            </div>
+
+            <div class="label-form">
+              <label for="preco">Preço R$: </label>
+              <input type="number" step="any" name="preco" id="preco" required />
+            </div>
+
+            <div class="label-form">
+              <label for="imagem">Link da Imagem: </label>
+              <input type="text" name="imagem" id="imagem" required />
+            </div>
+
+            <div id="btn">
+              <button id="btnCadastro" type="submit">Cadastrar</button>
+            </div>
+
+          </form>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/Thais-Mont" target="_blank"
+        >Thaís Monteiro -2022 &copy</a
+      >
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

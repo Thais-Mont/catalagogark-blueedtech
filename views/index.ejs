@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GARK-Decor</title>
+  </head>
+
+  <body onLoad="slide1()">
+    <header>
+      <nav>
+        <img id="img-logo" src="/img/logo.png" alt="logo-gark" />
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="#faixa-titulo">PRODUTOS</a></li>
+          <li><a href="/cadastro">CADASTRO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <% if(mensagem != ""){ %>
+    <section id="mensagem">
+      <p><%=mensagem %></p>
+      <span id="close">&times;</span>
+    </section>
+    <% } %>
+
+    <main>
+      <section id="home">
+        <img id="banner" src="/img-banner/imagem01.jpg" />
+      </section>
+
+      <section id="faixa-titulo">
+        <div>PRODUTOS</div>
+      </section>
+
+      <section id="produtos">
+      <% loteProdutos.forEach((produto) => { %>
+        <div class="cards">
+          <a class="card-produto" href="/detalhes/<%= produto.id %>">
+            <img src= <%= produto.imagem %> alt="imagem-produto" />
+            <p><%= produto.nome %></p>
+            <p><%= produto.preco %></p>
+          </a>
+        </div>
+      <% }) %>
+    </section>
+    </main>
+    <footer>
+      <a href="https://github.com/Thais-Mont" target="_blank"
+        >Thaís Monteiro -2022 &copy</a
+      >
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
