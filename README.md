@@ -35,11 +35,11 @@ Você terá acesso as seguintes telas :
 
 **Tela Principal** 
 
-![Tela principal](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/imagens/tela-principal.PNG)
+![Tela principal](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/img-projeto/tela-principal.PNG)
 
 **Tela de Detalhes ** 
 
-![Tela detalhes](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/imagens/tela-detalhes.PNG)
+![Tela detalhes](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/img-projeto/tela-detalhes.PNG)
 
 **Tela de Cadastro** 
-![Tela cadastro](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/imagens/tela-cadastro.PNG)
+![Tela cadastro](https://github.com/Thais-Mont/catalagogark-blueedtech/blob/master/img-projeto/tela-cadastro.PNG)
